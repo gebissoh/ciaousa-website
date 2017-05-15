@@ -1,0 +1,112 @@
+/*
+Template Name: The News Reporter
+Template URI: http://www.wpfreeware.com/news-reporter-wordpress-magazine-themes/
+Author: WpFreeware
+Author URI: http://www.wpfreeware.com
+Description: A Pro responsive magazine website template
+Version: 1.0 
+License: GPL
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+*{margin:0; padding:0}
+body{font-family:Arial; font-size:13px; line-height:13px; background-color: #aaff80;}
+a{color:#000; text-decoration:none}
+a:hover, a:active, a:focus{text-decoration:none; color:#000}
+input[type=text], input[type=password], textarea{border:1px solid #ddd; padding:5px; width:90%}
+input[type=submit]
+h1, h2, h4, h5, h6{font-weight:normal; margin:0 0 15px}
+h3{color:#202021; font-size:13px; font-weight:bold; margin-bottom:2px; line-height:16px}
+h2{font-size:25px; line-height:30px, font-weight:bold;}
+img{max-width:100%; height:auto;}
+.alignleft{float:left; margin-left:0px}
+.aligncenter{display:block; margin:10px auto}
+.alignright{float:right; margin-left:10px}
+.floatleft{float:left}
+.floatright{float:right}
+.floatclear{float:clear}
+.center{width:980px; display:block; margin:0 auto; padding:20px; background:#fff; transition:all 1.3s ease 0s; -moz-transition:all 1.3s ease 0s; -webkit-transition:all 1.3s ease 0s; -o-transition:all 1.3s ease 0s; -ms-transition:all 1.3s ease 0s}
+div{overflow:hidden}
+
+#nav{position: relative;width: 80%; padding-left:20%}
+
+.header_area{text-align:center; background-image: url("images/Italian_countryside.jpg"); padding-bottom: 150px; box-sizing: border-box; height:200px}
+.flag_column{width:50%; box-sizing:border-box; position:absolute; padding-top:60px; }
+.flag{margin-left:50%; max-width:15%; height:auto;}
+.magazine_title{padding-top: 40px; padding-right:40px;}
+
+.social_plus_search{padding-top:60px;}
+.social{width:250px; margin:20px 0px 10px 0px}
+.social ul{list-style:none outside none; margin:0; padding:0}
+.social ul li{float:left; margin-right:7px}
+.social ul li a{display:block; padding:12px 13px}
+.twitter{background:url("images/social_icons.png") no-repeat scroll 0 0 rgba(0,0,0,0)}
+.facebook{background:url("images/social_icons.png") no-repeat scroll -37px 0px rgba(0,0,0,0)}
+.feed{background:url("images/social_icons.png") no-repeat scroll -73px 0px rgba(0,0,0,0)}
+.search #s{width:87%}
+.search #searchform{background:url("images/search.png") no-repeat scroll 0 0 rgba(0,0,0,0); border:medium none; height:28px; margin-left:-4px; text-indent:-99999px; width:13%}
+.main_menu_area{overflow:visible; background:#0D0E0F; min-height:50px; text-align: center;}
+.main_menu_area ul{margin:0; padding:0; list-style:none}
+.main_menu_area ul li{float:left; position:relative}
+.main_menu_area ul li a{color:#FFF; display:block; font-family:'bebasregular'; font-size:15px; padding:18px 18.7px}
+.main_menu_area ul li a:hover{background:#CF0000}
+/* dropdown css level one*/
+.main_menu_area ul li ul{background:none repeat scroll 0 0 #0D0E0F; top:100px; position:absolute; width:215px; z-index:99999; right:-99999px}
+.main_menu_area ul li ul li{float:none; position:relative}
+.main_menu_area ul >li:hover >ul{left:0px; top:49px}
+.main_menu_area ul li ul li a{font-family:arial; font-weight:bold}
+.main_menu_area ul li ul li a:hover{}
+/* dropdown css level two*/
+.main_menu_area ul li ul li ul{background:none repeat scroll 0 0 #0D0E0F; right:215px; position:absolute; width:215px; z-index:99999; right:-99999px}
+.main_menu_area ul li ul li ul li{float:none}
+.main_menu_area ul li ul li:hover ul{left:215px !important; top:0px}
+.main_menu_area ul li ul li ul li a{font-family:arial; font-weight:bold}
+
+.content_area{margin-top:25px}
+.main_content{width:670px; padding-top: 5px;}
+.left_coloum{width:450px}
+.single_left_coloum_wrapper{position:relative; margin-left:-10px; margin-bottom:30px ; padding-top: 10px;}
+.single_left_coloum_wrapper .title{margin-left:10px}
+.title{border-bottom:4px solid #CF0000; font-family:'bebasregular'; font-size:20px; word-spacing:2px}
+.more{background:url("images/plus.png") no-repeat scroll 57px 9px #CF0000; color:#FFF; display:block; font-size:10px; font-weight:bold; padding:4px 20px; position:absolute; right:0; text-transform:uppercase; top:10px}
+.magazine_more{background:url("images/plus.png") no-repeat scroll 57px 12px #CF0000; color:#FFF; display:block; font-size:10px; font-weight:bold; padding:7px 20px; text-transform:uppercase; width:74px; margin-top:10px}
+.single_left_coloum_home{margin-left:10px; width:143px}
+.single_left_coloum{margin-left:10px; width:320px; }
+.newstext{font-size:14px; line-height:1.5;overflow:auto;  max-height: 215px; }
+.newstext h3{font-size:16px;}
+.readmore, .single_cat_right_content_meta span{color:#CF0000; font-size:10px; text-transform:uppercase; font-weight:bold; margin-right:20px}
+.readmore:hover, .single_cat_right_content_meta span:hover{color:#CF0000; text-decoration:underline}
+
+.single_cat_left_content{border-bottom:1px dotted #000; margin-left:10px; width:220px}
+.single_cat_left_content h3{font-size:15px}
+.single_cat_left_content_meta{font-size:11px}
+.single_cat_left_content_meta span{color:#cf0000}
+.right_coloum{width:190px}
+.single_right_coloum{margin-bottom:20px; padding-top:10px;}
+.single_right_coloum ul{margin:0; padding:0; list-style:none}
+.single_right_coloum ul li{border-bottom:1px dotted #ddd}
+.single_right_coloum ul li:last-child{border-bottom:none}
+.single_cat_right_content{padding-bottom:10px}
+.single_cat_right_content h3{margin-top:10px}
+
+.sidebar{width:250px}
+.single_sidebar{margin-bottom:20px}
+.news-letter{padding:10px; background:#E4E4E4}
+.news-letter h2{font-family:bebasregular; font-size:20px; margin-bottom:5px; word-spacing:2px}
+.subscription{padding:10px;  font-size: 20px; background:#999}
+form input.name{border:1px solid #999; margin-bottom:10px; width:100%}
+#sub_name{border:1px solid #999; margin-bottom:10px; width:100%}
+#sub_email{border:1px solid #999; margin-bottom:10px; width:100%}
+#sub_password{border:1px solid #999; margin-bottom:10px;}
+#sub_form-submit{background:none repeat scroll 0 0 #cf0000; border:medium none; color:#FFF; font-weight:bold; padding:8px 20px; font-size:13px}
+
+form input.email{border:1px solid #999; margin-bottom:10px; width:100%}
+form input .form-submit{background:none repeat scroll 0 0 #CF0000; border:medium none; color:#FFF; font-weight:bold; padding:8px 20px; font-size:13px}
+.news-letter-privacy{color:#cf0000; margin-top:10px}
+
+.footer_top_area{border-bottom:1px dotted #000; border-top:1px dotted #000; padding:20px 0; width:940px}
+.inner_footer_top{width:730px; margin:0 auto}
+.footer_bottom_area{margin-top:15px}
+.footer_menu{margin-bottom:20px}
+
+.copyright_text{line-height:17px; text-align:center}
